@@ -1,0 +1,21 @@
+#post-body #comm-mod::before {
+	content: "\f117";
+    display: inline-block;
+    font: 400 20px/1 dashicons;
+    left: -1px;
+    padding: 0 2px 0 0;
+    position: relative;
+    text-decoration: none !important;
+    top: 0;
+    vertical-align: top;
+    color: #82878c;
+}
+#post-comment-mask-display{
+    font-weight: bold;
+}
+#mask-text{
+    width: 100%;
+}
+.mdc-mask-comment label span a {
+    color: red;
+}
